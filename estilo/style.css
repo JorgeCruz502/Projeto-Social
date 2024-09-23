@@ -32,7 +32,23 @@ iframe{
     width: 265px;
     position: relative;
     top:12%;
-    left: 7%;
+    left: 6.6%;
     
 
+}
+section#redes-socias{
+    text-align: right;
+}
+section#redes-socias img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+}
+section#redes-socias img:hover{
+    border: 2px solid white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.877);
+    transform: translate(-8%, -8%);
+    transition: transform 0.5s;
 }
